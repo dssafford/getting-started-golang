@@ -38,12 +38,12 @@ deploy:
       repository: dssafford/getting-started-golang
       registry: https://registry.hub.docker.com
 
-    - cng/cf-deploy
-      api: $API
-      user: $USER
-      password: $PASSWORD
-      org: $ORG
-      space: $SPACE
-      appname: getting-started-golang
-      docker_image: dssafford/getting-started-golang
+    # - cng/cf-deploy
+    #   api: $API
+    #   user: $USER
+    #   password: $PASSWORD
+    #   org: $ORG
+    #   space: $SPACE
+    #   appname: getting-started-golang
+    #   docker_image: dssafford/getting-started-golang
 
