@@ -30,8 +30,8 @@ build:
 deploy:
   steps:
     - internal/docker-push:
-      username: dssafford
-      password: duckdodgers
+      username: $USERNAME
+      password: $PASSWORD
       cmd: /pipeline/source/hello
       port: "8080"
       tag: latest
