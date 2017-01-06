@@ -29,7 +29,7 @@ build:
 
 deploy:
   steps:
-    - internal/docker-push
+    - internal/docker-push:
       username: dssafford
       password: duckdodgers
       cmd: /pipeline/source/hello
